@@ -1,0 +1,72 @@
+.bg_container {
+  background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Appointmen_container {
+  background-color: #ffffff;
+  width: 70vw;
+  height: 80vh;
+  margin-top: 3rem;
+}
+.top_section {
+  display: flex;
+  justify-content: space-around;
+}
+.from_heading {
+  font-size: 23px;
+  color: #171f46;
+  margin-top: 3rem;
+}
+input {
+  margin-bottom: 0.9rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  border-radius: 3px;
+  border-top-width: 0;
+}
+label {
+  margin-top: 0.9rem;
+}
+.img_section {
+  width: 30%;
+}
+.top_section_img {
+  width: 120%;
+  margin-top: 2rem;
+}
+.add_button {
+  background-color: #8b5cf6;
+  color: white;
+  width: 2rem;
+  height: 1rem;
+}
+.middle_section {
+  margin: 2rem 3rem;
+  height: 0.1rem;
+  background-color: #b5b7c4;
+}
+.botton_heading {
+  font-size: 23px;
+  color: #171f46;
+  margin: 1rem 0 1rem 2rem;
+}
+.button_section_top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem 0 0;
+}
+.bottom_section_button {
+  width: 5rem;
+  height: 2rem;
+  margin-left: 2rem;
+  background: transparent;
+  border-color: #9897f0;
+  color: #9897f0;
+  border-radius: 12px;
+}

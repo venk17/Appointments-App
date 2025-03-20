@@ -1,0 +1,47 @@
+/* index.css */
+
+/* General styles for the appointment item */
+.appointment_item {
+  list-style-type: none;
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.appointment_item_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment_title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.appointment_item_button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+}
+
+.appointment_item_button img {
+  width: 24px;
+  height: 24px;
+}
+
+.date_text {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-top: 10px;
+}
